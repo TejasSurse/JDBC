@@ -1,0 +1,27 @@
+// Write programm to Create Table in oracle database
+// here we are uing aggregate function to calculate average of employee salaries;
+import java.sql.*;
+public class  CreateTableOracle
+{
+
+	public static void main(String[] args) throws Exception , SQLException
+	{
+		Class.forName("oracle.jdbc.driver.OracleDriver");
+		
+		Connection Conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:orcl", "scott", "tiger");
+		try{
+		Statement st = Conn.createStatement();
+		String qry = " CREATE TABLE class (name VARCHAR2(10));";
+		
+		System.out.println(qry);
+		st.executeUpdate(qry);
+		}
+		catch(SQLException e){
+			System.out.println(e.toString());
+		}
+		Conn.close();
+//		rs.close();
+		st.close();
+
+	}
+}

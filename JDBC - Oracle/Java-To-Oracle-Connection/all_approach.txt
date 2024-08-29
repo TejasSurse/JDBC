@@ -1,0 +1,1 @@
+all approach are with jdbc type4 dirver :

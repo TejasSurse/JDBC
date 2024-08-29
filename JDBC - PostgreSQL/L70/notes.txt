@@ -1,0 +1,19 @@
+While Working with new jdbc dirver we must need to gather following details 
+
+---------------------------------------------------------------------------------
+JDBC Driver Class Name.
+JDBC URL.
+Jar faile that represents jdbc driver Class.
+Documentation.
+
+
+The Standard Principle of software industry to work with jdbc, DB related Java Application 
+
+===================================================================================
+
+Don't Hard Code any values in our java application that are changable in the future, while 
+developing JDBC applicaiton.
+
+        Its Alwasy Recommended to pass driver class name, jdbc url,
+        Database User, Database password And SQL Queries to application from outiside 
+        of the application to get the flexibility of modification.

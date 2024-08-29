@@ -1,0 +1,11 @@
+Lec 61 to 67
+
+JDBC _ ResultSet Object :
+--------------------------
+ The ResultSet Object that allows us to access the records sequencially and uni directionally is called as non - scrollable Resultset Object.
+
+By default all resultset objects are not scrollable Resultset object.
+
+The resultset Object that allows us to read the record non sequenically or randomly or bidirectionally is called as scrollable resultset object 
+
+To create non scrollable Result set Object ;

@@ -1,0 +1,12 @@
+package T2;
+public class T2 
+{	
+	static{
+	
+		System.out.println("This is static t2");	
+	}	
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+	}
+}

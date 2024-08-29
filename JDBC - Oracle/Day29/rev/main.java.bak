@@ -1,0 +1,10 @@
+import myPac1.*;
+public class main 
+{
+	public static void main(String[] args) 
+	{
+		classOne co = new classOne();
+		co.m1();
+		System.out.println("Hello World!");
+	}
+}

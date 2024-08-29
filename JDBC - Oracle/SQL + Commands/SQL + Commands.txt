@@ -1,0 +1,2 @@
+- To see all tables  "Select * from tab"
+- INSERT INTO Company VALUES (1015, 'vahini', 34000, 'clerk', TO_DATE('18-Oct-2021', 'DD-MON-YYYY'));
